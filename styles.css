@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Permanent+Marker&display=swap');
+
+h1,h4{
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+
+
+label{
+    margin-left: 4rem;
+    margin-right: 17px;
+    font-family: 'Merienda One', cursive;
+}
+
+img{
+    border-radius: 1rem;
+}
+img:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+input{
+    background-image: radial-gradient(circle, #f8d1f8, #fccde7, #fbcbd8, #f6cacc, #edcac4);
+}
+
+.submit{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 20px;
+    margin-left: 6rem;
+    /* background-image: linear-gradient(to right top, #9d769d, #b78ca5, #cca5b0, #dcc0c2, #e9dbd9); */
+    background-image: linear-gradient(to right top, #963196, #bc5894, #d5839d, #e3afb3, #e9dbd9);
+}
+
+.cancel{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 20px;
+    margin-left: 3rem;
+    background-image: linear-gradient(to right top, #963196, #bc5894, #d5839d, #e3afb3, #e9dbd9);
+}
+
+.submit:hover{
+    transform: scale(1.06);
+    transition: 0.2s;    
+}
+.cancel:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+    
+}
+
+.box:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to left, #853b85, #a75485, #bf728b, #d19398, #deb4ae);
+}
+
+@media(min-width:50px){
+    
+    
+    .box{
+        display: flex;
+        align-items: center;
+        height: 34rem;
+        position: relative;
+        background-color: red;
+        border-radius: 2rem;
+        width: 29rem;
+        background-image: linear-gradient(to right top, #853b85, #a75485, #bf728b, #d19398, #deb4ae);
+        box-shadow: 9px 9px 23px 6px rgb(0 0 0 / 63%);
+        -webkit-box-shadow: 9px 9px 23px 6px rgb(0 0 0 / 63%);
+        -moz-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+        flex-direction: column;
+        justify-content: center;
+    }
+            
+    .spanRow{
+        display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    position: relative;
+    align-items: center;    
+    }
+
+    .forms span:nth-child(1){
+        padding-top: 20px;
+    }
+    
+}
+    
+    
+@media(min-width:800px){   
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        height: 20rem;
+        position: relative;
+        background-color: red;
+        border-radius: 2rem;
+        width: 50rem;
+        background-image: linear-gradient(to right top, #853b85, #a75485, #bf728b, #d19398, #deb4ae);
+        box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+    -moz-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+    }        
+    
+    .spanRow{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        margin-bottom: 1.5rem;
+        position: relative;
+    }
+    
+    
+    }
+
+
+/* 
+label{
+    margin-left: 20px;    
+    position: absolute;
+    top: 30px;
+}
+
+input{
+    position: relative;
+    left: 12rem;
+    top: 30px;
+}
+
+.submit{
+    position: absolute;
+    bottom: 0;
+}
+
+.cancel{
+    position: absolute;
+    bottom: 0;
+    right: 8rem;
+} */
